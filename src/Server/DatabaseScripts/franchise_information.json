@@ -1,0 +1,14 @@
+[
+	{
+		"franchise_id" : "SUB001",
+		"franchise_name" : "Subway",
+		"number_of_outlets" : "1",
+		"description" : "Serves subs and coke"
+	},
+	{
+		"franchise_id" : "SEC001",
+		"franchise_name" : "Second Cup",
+		"number_of_outlets" : "2",
+		"description" : "Coffee and snacks"	
+	}
+]

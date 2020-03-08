@@ -1,0 +1,38 @@
+[
+	{
+		"outlet_id" : "172",
+		"franchise_id" : "SUB001",
+		"location" : "Killam Library ground floor",
+		"timings" : 
+			{
+				"monday" : "0800 2330",
+				"tueday" : "0800 2330",
+				"wednesday" : "0800 2330",
+				"thursday" : "0800 2330",
+				"friday" : "0800 2000",
+				"saturday" : "1000 1830",
+				"sunday" : "1000 1830"
+			},
+		"out_of_stock" : "",
+		"avg_wait_time" : "7 minutes",
+		"avg_rating" : "3.90"
+	} ,
+	{
+		"outlet_id" : "986",
+		"franchise_id" : "SEC002",
+		"location" : "Killam Library ground floor",
+		"timings" : 
+			{
+				"monday" : "0800 2330",
+				"tueday" : "0800 2330",
+				"wednesday" : "0800 2330",
+				"thursday" : "0800 2330",
+				"friday" : "0800 2000",
+				"saturday" : "1000 1830",
+				"sunday" : "1000 1830"
+			},
+		"out_of_stock" : "",
+		"avg_wait_time" : "4 minutes",
+		"avg_rating" : "3.65"
+	}
+]

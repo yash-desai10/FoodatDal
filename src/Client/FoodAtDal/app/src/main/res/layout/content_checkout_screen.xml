@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout_checkout_screen">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_checkout_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Place Order"
+        android:textColor="@color/btn_textColor" />
+
+</LinearLayout>

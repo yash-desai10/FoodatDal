@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SignUp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_register_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Firstname"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:padding="9sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+        <EditText
+            android:id="@+id/edt_register_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Lastname"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:padding="9sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+        <EditText
+            android:id="@+id/edt_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:padding="9sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:hint="Email-ID"/>
+
+        <EditText
+            android:id="@+id/edt_register_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:padding="9sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:hint="Banner ID"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edt_register_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:padding="9sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:hint="Date of Birth"
+            android:inputType="none"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/edt_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:padding="9sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+        <EditText
+            android:id="@+id/edt_register_reenter_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Re-enter password"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:padding="9sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+
+        <TextView
+            android:id="@+id/tv_password_rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_password_rules"
+            android:background="@drawable/password_rules_text_view"
+            android:padding="10dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:padding="10dp"
+            android:text="@string/btn_register"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/btn_textColor"
+            android:textSize="@dimen/text_size_larger"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

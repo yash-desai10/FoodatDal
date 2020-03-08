@@ -1,0 +1,14 @@
+# exclude the python virtual env files
+
+src/Server/serverenv/Include/
+src/Server/serverenv/Lib/
+src/Server/serverenv/Scripts/
+src/Server/serverenv/tcl/
+src/Server/serverenv/pip-selfcheck.json
+src/Server/serverenv/FoodAtDalServer/db.sqlite3
+src/Server/serverenv/FoodAtDalServer/FoodAtDalServer/__pycache__
+src/Server/serverenv/FoodAtDalServer/FoodAtDalWebApp/__pycache__
+src/Server/serverenv/FoodAtDalServer/FoodAtDalWebApp/migrations
+
+# include python virtual env
+!src/Server/serverenv

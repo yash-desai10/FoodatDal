@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Food@Dal</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="btn_newuser">NEW USER</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="tv_password_rules">\tThe password should contain:\n\t\t- 6-15 characters in lenght\n\t\t- Atleast 1 number\n\t\t- Atleast 1 lower-case letter\n\t\t- Atleast 1 upper-case letter\n\t\t- Atleast 1 special character</string>
+    <string-array name="eateries">
+        <item>Choose a restaurant</item>
+        <item>Subway</item>
+        <item>First Cup</item>
+        <item>Second Cup</item>
+        <item>Pizza Pizzaaa</item>
+    </string-array>
+
+    <string-array name="buildings">
+        <item>Choose a building</item>
+        <item>Killam</item>
+        <item>DSU</item>
+        <item>Goldberg</item>
+        <item>LSC Common</item>
+    </string-array>
+
+    <string-array name="Patties">
+        <item>Choose a number</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Sauce">
+        <item>Choose sauce</item>
+        <item>Mustard</item>
+        <item>Chilli</item>
+        <item>Tobasco</item>
+        <item>Ketchup</item>
+    </string-array>
+
+    <string-array name="Toppings">
+        <item>Choose Toppings</item>
+        <item>Lettuce</item>
+        <item>Capsicum</item>
+        <item>Salsa</item>
+    </string-array>
+
+    <string-array name="Cheese">
+        <item>Choose Cheese</item>
+        <item>Mozarella</item>
+        <item>Cheddar</item>
+        <item>Gouda Cheese</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Food@Dal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

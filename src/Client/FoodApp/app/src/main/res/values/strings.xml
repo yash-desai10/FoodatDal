@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="btn_newuser">NEW USER</string>
+    <string name="btn_register">REGISTER</string>
+    <string-array name="eateries">
+        <item>Choose a restaurant</item>
+        <item>Subway</item>
+        <item>First Cup</item>
+        <item>Second Cup</item>
+        <item>Pizza Pizzaaa</item>
+    </string-array>
+
+    <string-array name="buildings">
+        <item>Choose a building</item>
+        <item>Killam</item>
+        <item>DSU</item>
+        <item>Goldberg</item>
+        <item>LSC Common</item>
+    </string-array>
+</resources>
